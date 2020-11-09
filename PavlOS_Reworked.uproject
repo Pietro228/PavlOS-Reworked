@@ -60,7 +60,7 @@
 		{
 			"Name": "SSZCode",
 			"Enabled": true,
-			"MarketplaceURL": "https://ssz.ca/site/product/sszcode-community-edition"
+			"MarketplaceURL": "com.epicgames.launcher: //ue/marketplace/product/8567b25b067e43408e4d9a867ad7dcfe"
 		},
 		{
 			"Name": "KantanCharts",
