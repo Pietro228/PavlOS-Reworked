@@ -1,0 +1,42 @@
+{	"pages": [
+				{ "page_1": [
+								{ "window": {
+												"title": "Facebook", "app_name": "Facebook", "size_x": 1200, "size_y": 685, "icon": "images/facebook.png", "min_size_x": 700, "min_size_y": 385 } 
+								},
+								
+								{ "text": 	[
+											]
+								},
+								
+								{ "button": [
+											]
+								},
+								
+								{ "text_box": 	[
+								
+												]
+								},
+								
+								{ "border": 	[
+								
+												]
+								},
+								
+								{ "check_box":	[
+								
+												]
+								},
+								
+								{ "text_box_multiline":	[
+								
+														]
+								},
+								
+								{ "web_browser":		[
+														{ "pos_x":0, "pos_y":0, "size_x": 1190, "size_y": 665, "resize_x":true, "resize_y":true, "url": "https://www.facebook.com/"}
+														]
+								},
+							]
+				},
+			 ]
+}

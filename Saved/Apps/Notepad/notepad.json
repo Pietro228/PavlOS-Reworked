@@ -1,0 +1,46 @@
+{	"pages": [
+				{ "page_1": [
+								{ "window": {
+												"title": "Notepad", "app_name": "Notepad", "size_x": 700, "size_y": 385, "icon": "apps/notepad/paper.png", "min_size_x": 700, "min_size_y": 385, "code": "apps/notepad/ntpd.p" } 
+								},
+								
+								{ "text": 	[
+
+											]
+								},
+								
+								{ "button": [
+												{ "string": "SAVE", "pos_x": 0, "pos_y": 0, "size_x": 100, "size_y": 25, "font_size": 12, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "@str=ntpd&get.textbox.txtbxsave.text&;@set=ntpd&get.textbox.txtbxsave.text&=&get.textboxmul.txtbx.text&;@save=ntpd&get.textbox.txtbxsave.text&"}] },
+												{ "string": "LOAD", "pos_x": 100, "pos_y": 0, "size_x": 100, "size_y": 25, "font_size": 12, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "@load=ntpd&get.textbox.txtbxsave.text&;@json=textboxmul=txtbx=text=ntpd&get.textbox.txtbxsave.text&"}] },
+												{ "string": "EXIT AND SAVE", "pos_x": 200, "pos_y": 0, "size_x": 150, "size_y": 25, "font_size": 12, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "@str=ntpd&get.textbox.txtbxsave.text&;@set=ntpd&get.textbox.txtbxsave.text&=&get.textboxmul.txtbx.text&;@save=ntpd&get.textbox.txtbxsave.text&"}, {"cmd": "close_app"}] },
+												{ "string": "EXIT", "pos_x": 350, "pos_y": 0, "size_x": 100, "size_y": 25, "font_size": 12, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "close_app"}] }
+											]
+								},
+								
+								{ "text_box": 	[
+									{ "object_ID": "txtbxsave", "pos_x": 500, "pos_y": 1, "size_x": 200, "size_y": 23, "hint": "ENTER DOCUMENT NAME", "text": "document", "resize_x":true, "font_size": 12 }
+												]
+								},
+								
+								{ "border": 	[
+									
+												]
+								},
+								
+								{ "check_box":	[
+												]
+								},
+								
+								{ "text_box_multiline":	[
+													{"pos_x": 0, "pos_y": 25, "size_x": 700, "size_y": 350, "font_size": 12, "resize_x":true, "resize_y":true, "object_ID": "txtbx"}
+														]
+								},
+								
+								{ "web_browser":		[
+
+														]
+								}
+							]
+				}
+			 ]
+}

@@ -1,0 +1,172 @@
+{	"pages": [
+				{ "page_1": [
+								{ "window": {
+												"title": "Welcome to PavlOS!", "app_name": "PavlOS Introduction", "size_x": 850, "size_y": 425, "icon": "images/PavlOS_logo_reworked_transparent.png", "min_size_x": 850, "min_size_y": 425, "allow_nav_btns":true } 
+								},
+								
+								{ "text": 	[
+												{ "string": "Welcome to PavlOS!", "pos_x": 170, "pos_y": 70, "font_size": 40, "scale_x":true, "scale_y":true, "color": "R=1, G=1, B=1, A=1" },
+												{ "string": "We're glad that you've downloaded the latest version os PavlOS!", "pos_x": 30, "pos_y": 170, "font_size": 20, "scale_x":true, "scale_y":true, "color": "R=0.15, G=0.15, B=0.15, A=1" },
+											]
+								},
+								
+								{ "button": [
+											{ "string": "NEXT", "pos_x": 0, "pos_y": 310, "size_x": 850, "size_y": 40, "font_size": 20, "resize_x":true, "scale_y":true, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=0.7, G=0.7, B=0.7", "style": "styles/button/modern_style_dark.ini", "command": [{"cmd": "open_page: pages[1].what_is"}] },
+											]
+								},
+								
+								{ "text_box": 	[
+								
+												]
+								},
+								
+								{ "border": 	[
+													{ "pos_x": 0, "pos_y": 50, "size_x": 850, "size_y": 100, "zorder": -1, "scale_y":true, "color": "R=0.2, G=0.2, B=0.2, A=1", "resize_x":true},
+													{ "pos_x": 35, "pos_y": 50, "size_x": 100, "size_y": 100, "zorder": 1, "scale_x":true, "scale_y":true, "color": "R=1, G=1, B=1", "img": "images/PavlOS_logo_transparent.png"},
+												]
+								},
+								
+								{ "check_box":	[
+												
+												]
+								},
+								
+								{ "text_box_multiline":	[
+
+														]
+								},
+								
+								{ "web_browser":		[
+
+														]
+								},
+							]
+				},
+				{ "what_is": [
+								{ "window": {
+												"title": "Welcome to PavlOS! - What is Pavl?", "app_name": "PavlOS Introduction", "size_x": 850, "size_y": 425, "icon": "images/PavlOS_logo_reworked_transparent.png", "min_size_x": 850, "min_size_y": 425, "allow_nav_btns":true }
+								},
+								
+								{ "text": 	[
+												{ "string": "What is PavlOS?", "pos_x": 30, "pos_y": 70, "font_size": 40, "scale_x":true, "scale_y":true, "color": "R=1, G=1, B=1, A=1" },
+												{ "string": "PavlOS is a small project from BeXCool.eu.\nThis OS is made for people who like modern design,\neasy user interface and with many functions.", "pos_x": 30, "pos_y": 170, "font_size": 20, "scale_x":true, "scale_y":true, "color": "R=0.15, G=0.15, B=0.15, A=1" },
+											]
+								},
+								
+								{ "button": [
+											{ "string": "NEXT", "pos_x": 0, "pos_y": 310, "size_x": 850, "size_y": 40, "font_size": 20, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=0.7, G=0.7, B=0.7", "scale_y":true, "resize_x":true, "style": "styles/button/modern_style_dark.ini", "command": [{"cmd": "open_page: pages[2].developer_functions"}] },
+											{ "string": "<", "pos_x": 10, "pos_y": 10, "size_x": 30, "size_y": 30, "font_size": 15, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=0.7, G=0.7, B=0.7", "scale_y":true, "style": "styles/button/modern_style_dark.ini", "command": [{"cmd": "open_page: pages[0].page_1"}] },
+											]
+								},
+								{ "text_box": 	[
+								
+												]
+								},
+								
+								{ "border": 	[
+													{ "pos_x": 0, "pos_y": 50, "size_x": 850, "size_y": 100, "zorder": -1, "scale_y":true, "color": "R=0.2, G=0.2, B=0.2, A=1", "resize_x":true},
+												]
+								},
+								
+								{ "check_box":	[
+												
+												]
+								},
+								
+								{ "text_box_multiline":	[
+
+														]
+								},
+								
+								{ "web_browser":		[
+
+														]
+								},
+							]
+				},
+				{ "developer_functions": [
+								{ "window": {
+												"title": "Welcome to PavlOS! - Developer friendly platform.", "app_name": "PavlOS Introduction", "size_x": 850, "size_y": 425, "icon": "PavlOS_logo_reworked_transparent.png", "min_size_x": 850, "min_size_y": 425, "allow_nav_btns":true }
+								},
+								
+								{ "text": 	[
+												{ "string": "Developer friendly platform.", "pos_x": 30, "pos_y": 70, "scale_x":true, "scale_y":true, "font_size": 40, "color": "R=1, G=1, B=1, A=1" },
+												{ "string": "Our project is open source for programmers (link for github\nproject will be in notification after this introduction will be done).\nProgrammers can make their own apps in our OS easily,\nbecause apps are written in JSON, which is easy to programme in.", "pos_x": 30, "pos_y": 170, "scale_x":true, "scale_y":true, "font_size": 20, "color": "R=0.15, G=0.15, B=0.15, A=1" },
+											]
+								},
+								
+								{ "button": [
+											{ "string": "NEXT", "pos_x": 0, "pos_y": 310, "size_x": 850, "size_y": 40, "font_size": 20, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=0.7, G=0.7, B=0.7", "scale_y":true, "resize_x":true, "style": "styles/button/modern_style_dark.ini", "command": [{"cmd": "open_page: pages[3].enjoy"}] },
+											{ "string": "<", "pos_x": 10, "pos_y": 10, "size_x": 30, "size_y": 30, "font_size": 15, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=0.7, G=0.7, B=0.7", "scale_y":true, "style": "styles/button/modern_style_dark.ini", "command": [{"cmd": "open_page: pages[1].what_is"}] },
+											]
+								},
+								{ "text_box": 	[
+								
+												]
+								},
+								
+								{ "border": 	[
+													{ "pos_x": 0, "pos_y": 50, "size_x": 850, "size_y": 100, "zorder": -1, "scale_y":true, "color": "R=0.2, G=0.2, B=0.2, A=1", "resize_x":true},
+												]
+								},
+								
+								{ "check_box":	[
+												
+												]
+								},
+								
+								{ "text_box_multiline":	[
+
+														]
+								},
+								
+								{ "web_browser":		[
+
+														]
+								},
+							]
+				},
+				{ "enjoy": [
+								{ "window": {
+												"title": "Welcome to PavlOS! - Enjoy!", "app_name": "PavlOS Introduction", "size_x": 850, "size_y": 425, "icon": "PavlOS_logo_reworked_transparent.png", "min_size_x": 850, "min_size_y": 425, "allow_nav_btns":true }
+								},
+								
+								{ "text": 	[
+												{ "string": "Enjoy!", "pos_x": 30, "pos_y": 70, "font_size": 40, "scale_x":true, "scale_y":true, "color": "R=1, G=1, B=1, A=1" },
+												{ "string": "That's all what we wanted to say!\nEnjoy our OS! :)", "pos_x": 30, "pos_y": 170, "scale_x":true, "scale_y":true, "font_size": 20, "color": "R=0.15, G=0.15, B=0.15, A=1" },
+											]
+								},
+								
+								{ "button": [
+											{ "string": "CLOSE", "pos_x": 0, "pos_y": 310, "size_x": 850, "size_y": 40, "font_size": 20, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=0.7, G=0.7, B=0.7", "scale_y":true, "resize_x":true, "style": "styles/button/modern_style_dark.ini", "command": [{"cmd": "close_app"}, {"cmd": "notification: Enjoy our OS! Visit project Git Hub:                https://github.com/Pietro228/PavlOS-Reworked.git"}] },
+											{ "string": "<", "pos_x": 10, "pos_y": 10, "size_x": 30, "size_y": 30, "font_size": 15, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=0.7, G=0.7, B=0.7", "scale_y":true, "style": "styles/button/modern_style_dark.ini", "command": [{"cmd": "open_page: pages[2].developer_functions"}] },
+											]
+								},
+								{ "text_box": 	[
+								
+												]
+								},
+								
+								{ "border": 	[
+													{ "pos_x": 0, "pos_y": 50, "size_x": 850, "size_y": 100, "zorder": -1, "scale_y":true, "color": "R=0.2, G=0.2, B=0.2, A=1", "resize_x":true},
+												]
+								},
+								
+								{ "check_box":	[
+												
+												]
+								},
+								
+								{ "text_box_multiline":	[
+
+														]
+								},
+								
+								{ "web_browser":		[
+
+														]
+								},
+							]
+				},
+			 ]
+}

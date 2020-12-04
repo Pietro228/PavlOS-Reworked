@@ -1,0 +1,42 @@
+{	"pages": [
+				{ "page_1": [
+								{ "window": {
+												"title": "BeBrowser", "app_name": "BeBrowser", "size_x": 1200, "size_y": 685, "icon": "images/BeBrowser_PavlOS_version.png", "min_size_x": 700, "min_size_y": 385 } 
+								},
+								
+								{ "text": 	[
+											]
+								},
+								
+								{ "button": [
+											]
+								},
+								
+								{ "text_box": 	[
+												{ "object_ID": "url_txtbox", "pos_x": 5, "pos_y": 5, "size_x": 1190, "size_y": 30, "hint": "ENTER URL", "text": "https://www.google.com/", "resize_x":true, "font_size": 12 }
+												]
+								},
+								
+								{ "border": 	[
+								
+												]
+								},
+								
+								{ "check_box":	[
+								
+												]
+								},
+								
+								{ "text_box_multiline":	[
+								
+														]
+								},
+								
+								{ "web_browser":		[
+														{ "pos_x":0, "pos_y":40, "size_x": 1190, "size_y": 645, "resize_x":true, "resize_y":true, "url": "get.url_txtbox"}
+														]
+								}
+							]
+				}
+			 ]
+}

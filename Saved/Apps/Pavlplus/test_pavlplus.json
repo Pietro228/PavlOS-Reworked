@@ -1,0 +1,88 @@
+{	"pages": [
+				{ "page_1": [
+								{ "window": {
+												"title": "Test", "app_name": "Testing", "size_x": 700, "size_y": 385, "icon": "images/settings_icon.png", "min_size_x": 700, "min_size_y": 385, "code": "apps/pavlplus/start.p"  } 
+								},
+								
+								{ "text": 	[
+												{ "string": "&get.string", "pos_x": 15, "pos_y": 60, "scale_x":true, "scale_y":true, "font_size": 30 },
+												{ "string": "&get.vysledek", "pos_x": 30, "pos_y": 110, "scale_x":true, "scale_y":true, "font_size": 15 },
+												{ "string": "I hope you'll like it :)", "pos_x": 30, "pos_y": 130, "scale_x":true, "scale_y":true, "font_size": 15 }
+											]
+								},
+								
+								{ "button": [
+												{ "string": "CONTINUE", "pos_x": 100, "pos_y": 260, "size_x": 200, "size_y": 30, "font_size": 15, "text_color": "R=1,G=1,B=1" , "color": "R=0.5, G=0.3, B=0, A=1", "scale_x":true, "scale_y":true, "command": [{"cmd": "@json=textboxmul=txtbx=pos_x=&get.textboxmul.txtbx.text&"}] },
+												{ "string": "VYPOCET!", "pos_x": 400, "pos_y": 260, "size_x": 200, "size_y": 30, "font_size": 15, "style": "styles/button/modern_style.ini", "scale_x":true, "scale_y":true, "command": [{"cmd": "@set=string=&get.textboxmul.txtbx.text&"}] }
+											]
+								},
+								
+								{ "text_box": 	[
+								
+												]
+								},
+								
+								{ "border": 	[
+													{ "pos_x": 0, "pos_y": 50, "size_x": 700, "size_y": 60, "resize_x":true, "resize_y":false, "zorder": -1, "scale_y":true, "color": "R=0.5, G=0.8, B=1, A=1"}
+												]
+								},
+								
+								{ "check_box":	[
+												]
+								},
+								
+								{ "text_box_multiline":	[
+													{"pos_x": 0, "pos_y": 25, "size_x": 100, "size_y": 75, "font_size": 12, "object_ID": "txtbx", "text": "3"}
+														]
+								},
+								
+								{ "web_browser":		[
+
+														]
+								}
+							]
+				},
+				{ "it_works": [
+								{ "window": {
+												"title": "Test works!", "app_name": "Testing", "size_x": 700, "size_y": 385, "icon": "images/be_report_192x192.png", "min_size_x": 700, "min_size_y": 385 } 
+								},
+								
+								{ "text": 	[
+												{ "string": "Test completed!.", "pos_x": 15, "pos_y": 60, "font_size": 15 },
+												{ "string": "IT WORKS! :D", "pos_x": 50, "pos_y": 190, "font_size": 15 }
+											]
+								},
+								
+								{ "button": [
+												{ "string": "BACK", "pos_x": 100, "pos_y": 260, "size_x": 200, "size_y": 30, "font_size": 15,  "command": [{"cmd": "open_page: pages[0].page_1"}] },
+												{ "string": "CLOSE", "pos_x": 400, "pos_y": 260, "size_x": 200, "size_y": 30, "font_size": 15,  "command": [{"cmd": "close_app"}] }
+											]
+								},
+								{ "text_box": 	[
+								
+												]
+								},
+								
+								{ "border": 	[
+
+												]
+								},
+								
+								{ "check_box":	[
+												
+												]
+								},
+								
+								{ "text_box_multiline":	[
+
+														]
+								},
+								
+								{ "web_browser":		[
+
+														]
+								}
+							]
+				}
+			 ]
+}

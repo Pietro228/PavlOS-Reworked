@@ -1,0 +1,44 @@
+{	"pages": [
+				{ "page_1": [
+								{ "window": {
+												"title": "IMPORTANT RESTART", "app_name": "system", "size_x": 500, "size_y": 200, "icon": "images/red_!.png", "min_size_x": 500, "min_size_y": 200, "allow_nav_btns":false, "allow_resize":false }
+								},
+								
+								{ "text": 	[
+												{ "string": "OS needs to be restarted to work properly.", "pos_x": 15, "pos_y": 30, "font_size": 15 },
+												{ "string": "Some data is corrupted or doesn't exist.\nRestart will recreate these system files.", "pos_x": 15, "pos_y": 60, "font_size": 10 }
+											]
+								},
+								
+								{ "button": [
+												{ "string": "RESTART", "pos_x": 100, "pos_y": 125, "size_x": 100, "size_y": 30, "font_size": 15, "text_color": "R=1,G=1,B=1" , "color": "R=1, G=0, B=0, A=1", "command": [{"cmd": "restart_OS"}] },
+												{ "string": "LATER", "pos_x": 275, "pos_y": 125, "size_x": 100, "size_y": 30, "font_size": 15, "command": [{"cmd": "min_app"}, {"cmd": "notification: Restart is still waiting in app panel."}] }
+											]
+								},
+								
+								{ "text_box": 	[
+												]
+								},
+								
+								{ "border": 	[
+												]
+								},
+								
+								{ "check_box":	[
+												
+												]
+								},
+								
+								{ "text_box_multiline":	[
+
+														]
+								},
+								
+								{ "web_browser":		[
+
+														]
+								},
+							]
+				},
+			 ]
+}

@@ -1,0 +1,5 @@
+{	"notifications": 	[
+						{ "notification": {"title": "Welcome to Pavl.", "message": "We are glad that you've downloaded it!", "delay": 5 } },
+						{ "notification": {"title": "Visit our web!", "message": "You can visit our webpage bexcool.eu for more information.", "delay": 0 } },
+						]
+}

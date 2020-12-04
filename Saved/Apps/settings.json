@@ -1,0 +1,423 @@
+{	"pages": [
+				{ "page_1": [
+								{ "window": {
+												"title": "Settings", "app_name": "Settings", "size_x": 1000, "size_y": 685, "icon": "apps/settings/settings_icon.png", "min_size_x": 1000, "min_size_y": 685, "bg_color": "R=1,G=01,B=1", "allow_resize":true } 
+								},
+								
+								{ "text": 	[
+												{ "string": "Settings", "pos_x": 60, "pos_y": 20, "font_size": 35, "color": "R=0, G=0, B=0, A=1" },
+												{ "string": "Select settings section.", "pos_x": 290, "pos_y": 20, "font_size": 27, "color": "R=0.15, G=0.15, B=0.15, A=1" },
+											]
+								},
+								
+								{ "button": [
+											{ "pos_x": 50, "pos_y": 15, "size_x": 200, "size_y": 60, "font_size": 16, "color": "R=0, G=0, B=0, A=0", "command": [{"cmd": "open_page: pages[0].page_1"}] },
+											{ "string": "Account", "pos_x": 50, "pos_y": 100, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[1].account"}] },
+											{ "string": "Time and date", "pos_x": 50, "pos_y": 140, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[2].time_and_date"}] },
+											{ "string": "Surface", "pos_x": 50, "pos_y": 180, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[3].surface"}] },
+											{ "string": "Menu", "pos_x": 50, "pos_y": 220, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[4].menu"}] },
+											{ "string": "Sounds", "pos_x": 50, "pos_y": 260, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[5].sounds"}] },
+											{ "string": "Security", "pos_x": 50, "pos_y": 300, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[6].security"}] },
+											{ "string": "Display", "pos_x": 50, "pos_y": 340, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[7].display"}] },
+											{ "string": "Apply settings", "pos_x": 50, "pos_y": 550, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "scale_y":true, "command": [{"cmd": "refresh_settings"}] },
+											]
+								},
+								
+								{ "text_box": 	[
+
+												]
+								},
+								
+								{ "border": 	[
+													{ "pos_x": 50, "pos_y": -30, "size_x": 200, "size_y": 655, "resize_x":false, "resize_y":true, "resize_xy":false, "zorder": -1, "color": "R=0.1, G=0.1, B=0.1, A=0.1"},
+												]
+								},
+								
+								{ "check_box":	[
+													
+												]
+								},
+								
+								{ "text_box_multiline":	[
+															
+														]
+								},
+								
+								{ "text_box_multiline":	[
+
+														]
+								},
+							]
+				},
+				{ "account": [
+								{ "window": {
+												"title": "Settings - Account", "size_x": 1000, "size_y": 685, "icon": "apps/settings/settings_icon.png", "min_size_x": 1000, "min_size_y": 685, "allow_resize":true } 
+								},
+								
+								{ "text": 	[
+												{ "string": "Settings", "pos_x": 60, "pos_y": 20, "font_size": 35, "color": "R=0, G=0, B=0, A=1" },
+												{ "string": "Account", "pos_x": 290, "pos_y": 20, "font_size": 27, "color": "R=0.15, G=0.15, B=0.15, A=1" },
+												{ "string": "Username:", "pos_x": 310, "pos_y": 130, "font_size": 17, "color": "R=0.25, G=0.25, B=0.25, A=1" },
+												{ "string": "Password:", "pos_x": 310, "pos_y": 170, "font_size": 17, "color": "R=0.25, G=0.25, B=0.25, A=1" },
+												{ "string": "Img:", "pos_x": 310, "pos_y": 210, "font_size": 17, "color": "R=0.25, G=0.25, B=0.25, A=1" },
+											]
+								},
+								
+								{ "button": [
+											{ "pos_x": 50, "pos_y": 15, "size_x": 200, "size_y": 60, "font_size": 16, "color": "R=0, G=0, B=0, A=0", "command": [{"cmd": "open_page: pages[0].page_1"}] },
+											{ "string": "Account", "pos_x": 50, "pos_y": 100, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[1].account"}] },
+											{ "string": "Time and date", "pos_x": 50, "pos_y": 140, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[2].time_and_date"}] },
+											{ "string": "Surface", "pos_x": 50, "pos_y": 180, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[3].surface"}] },
+											{ "string": "Menu", "pos_x": 50, "pos_y": 220, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[4].menu"}] },
+											{ "string": "Sounds", "pos_x": 50, "pos_y": 260, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[5].sounds"}] },
+											{ "string": "Security", "pos_x": 50, "pos_y": 300, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[6].security"}] },
+											{ "string": "Display", "pos_x": 50, "pos_y": 340, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[7].display"}] },
+											{ "string": "Apply settings", "pos_x": 50, "pos_y": 550, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "scale_y":true, "command": [{"cmd": "refresh_settings"}] },											]
+								},
+								
+								{ "text_box": 	[
+												{ "config_type":true, "config_file": "system_settings/settings.ini", "section": "account", "key": "username", "pos_x": 475, "pos_y": 130, "size_x": 245, "size_y": 30, "hint": "ENTER USERNAME", "font_size": 12 },
+												{ "config_type":true, "config_file": "system_settings/settings.ini", "section": "account", "key": "password", "pos_x": 475, "pos_y": 170, "size_x": 245, "size_y": 30, "hint": "ENTER PASSWORD", "font_size": 12 },
+												{ "config_type":true, "config_file": "system_settings/settings.ini", "section": "account", "key": "img", "pos_x": 475, "pos_y": 210, "size_x": 245, "size_y": 30, "hint": "ENTER PROFILE IMG URL", "font_size": 12 },
+												]
+								},
+								
+								{ "border": 	[
+													{ "pos_x": 50, "pos_y": -30, "size_x": 200, "size_y": 655, "resize_x":false, "resize_y":true, "resize_xy":false, "zorder": -1, "color": "R=0.1, G=0.1, B=0.1, A=0.1"},
+												]
+								},
+								
+								{ "check_box":	[
+												{ "pos_x": 310, "pos_y": 90, "size_x": 100, "size_y": 30, "zorder": 5, "text_color": "R=0, G=0, B=0, A=1", "color": "R=1, G=1, B=1, A=1", "config_file": "system_settings/settings.ini", "section": "account", "key": "use_login", "text": "Use log in?"},
+												]
+								},
+								
+								{ "text_box_multiline":	[
+
+														]
+								},
+								
+								{ "text_box_multiline":	[
+
+														]
+								},
+							]
+				},
+				{ "time_and_date": [
+								{ "window": {
+												"title": "Settings - Time and date", "size_x": 1000, "size_y": 685, "icon": "apps/settings/settings_icon.png", "min_size_x": 1000, "min_size_y": 685, "allow_resize":true } 
+								},
+								
+								{ "text": 	[
+												{ "string": "Settings", "pos_x": 60, "pos_y": 20, "font_size": 35, "color": "R=0, G=0, B=0, A=1" },
+												{ "string": "Time and date", "pos_x": 290, "pos_y": 20, "font_size": 27, "color": "R=0.15, G=0.15, B=0.15, A=1" },
+											]
+								},
+								
+								{ "button": [
+											{ "pos_x": 50, "pos_y": 15, "size_x": 200, "size_y": 60, "font_size": 16, "color": "R=0, G=0, B=0, A=0", "command": [{"cmd": "open_page: pages[0].page_1"}] },
+											{ "string": "Account", "pos_x": 50, "pos_y": 100, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[1].account"}] },
+											{ "string": "Time and date", "pos_x": 50, "pos_y": 140, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[2].time_and_date"}] },
+											{ "string": "Surface", "pos_x": 50, "pos_y": 180, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[3].surface"}] },
+											{ "string": "Menu", "pos_x": 50, "pos_y": 220, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[4].menu"}] },
+											{ "string": "Sounds", "pos_x": 50, "pos_y": 260, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[5].sounds"}] },
+											{ "string": "Security", "pos_x": 50, "pos_y": 300, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[6].security"}] },
+											{ "string": "Display", "pos_x": 50, "pos_y": 340, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[7].display"}] },
+											{ "string": "Apply settings", "pos_x": 50, "pos_y": 550, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "scale_y":true, "command": [{"cmd": "refresh_settings"}] },
+											]
+								},
+								
+								{ "text_box": 	[
+								
+												]
+								},
+								
+								{ "border": 	[
+													{ "pos_x": 50, "pos_y": -30, "size_x": 200, "size_y": 655, "resize_x":false, "resize_y":true, "resize_xy":false, "zorder": -1, "color": "R=0.1, G=0.1, B=0.1, A=0.1"},
+												]
+								},
+								
+								{ "check_box":	[
+												{ "pos_x": 310, "pos_y": 90, "size_x": 100, "size_y": 30, "zorder": 5, "text_color": "R=0, G=0, B=0, A=1", "color": "R=1, G=1, B=1, A=1", "config_file": "system_settings/settings.ini", "section": "time and date", "key": "12h_mmdd", "text": "Show time in 12h MM/DD/YYYY"},
+												]
+								},
+								
+								{ "text_box_multiline":	[
+
+														]
+								},
+								
+								{ "text_box_multiline":	[
+
+														]
+								},
+							]
+				},
+				{ "surface": [
+								{ "window": {
+												"title": "Settings - Surface", "size_x": 1000, "size_y": 685, "icon": "apps/settings/settings_icon.png", "min_size_x": 1000, "min_size_y": 685, "allow_resize":true } 
+								},
+								
+								{ "text": 	[
+												{ "string": "Settings", "pos_x": 60, "pos_y": 20, "font_size": 35, "color": "R=0, G=0, B=0, A=1" },
+												{ "string": "Surface", "pos_x": 290, "pos_y": 20, "font_size": 27, "color": "R=0.15, G=0.15, B=0.15, A=1" },
+												{ "string": "Surface image:", "pos_x": 310, "pos_y": 90, "font_size": 17, "color": "R=0.25, G=0.25, B=0.25, A=1" },
+												{ "string": "Surface apps:", "pos_x": 310, "pos_y": 130, "font_size": 17, "color": "R=0.25, G=0.25, B=0.25, A=1" },
+												{ "string": "Startup apps:", "pos_x": 310, "pos_y": 260, "font_size": 17, "color": "R=0.25, G=0.25, B=0.25, A=1" },
+											]
+								},
+								
+								{ "button": [
+											{ "pos_x": 50, "pos_y": 15, "size_x": 200, "size_y": 60, "font_size": 16, "color": "R=0, G=0, B=0, A=0", "command": [{"cmd": "open_page: pages[0].page_1"}] },
+											{ "string": "Account", "pos_x": 50, "pos_y": 100, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[1].account"}] },
+											{ "string": "Time and date", "pos_x": 50, "pos_y": 140, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[2].time_and_date"}] },
+											{ "string": "Surface", "pos_x": 50, "pos_y": 180, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[3].surface"}] },
+											{ "string": "Menu", "pos_x": 50, "pos_y": 220, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[4].menu"}] },
+											{ "string": "Sounds", "pos_x": 50, "pos_y": 260, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[5].sounds"}] },
+											{ "string": "Security", "pos_x": 50, "pos_y": 300, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[6].security"}] },
+											{ "string": "Display", "pos_x": 50, "pos_y": 340, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[7].display"}] },
+											{ "string": "Apply settings", "pos_x": 50, "pos_y": 550, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "scale_y":true, "command": [{"cmd": "refresh_settings"}] },
+											]
+								},
+								
+								{ "text_box": 	[
+												{ "config_type":true, "config_file": "system_settings/settings.ini", "section": "surface", "key": "img", "pos_x": 475, "pos_y": 90, "size_x": 450, "size_y": 30, "hint": "ENTER IMAGE URL", "font_size": 12 },
+												]
+								},
+								
+								{ "border": 	[
+													{ "pos_x": 50, "pos_y": -30, "size_x": 200, "size_y": 655, "resize_x":false, "resize_y":true, "resize_xy":false, "zorder": -1, "color": "R=0.1, G=0.1, B=0.1, A=0.1"},
+												]
+								},
+								
+								{ "check_box":	[
+
+												]
+								},
+								
+								{ "text_box_multiline":	[
+														{ "config_type":true, "config_file": "system_settings/settings.ini", "section": "surface apps", "key": "app", "pos_x": 475, "pos_y": 130, "size_x": 450, "size_y": 110, "hint": "ENTER FILE NAMES FOR SURFACE APPS", "text": "None", "font_size": 12},
+														{ "config_type":true, "config_file": "system_settings/settings.ini", "section": "startup apps", "key": "app", "pos_x": 475, "pos_y": 260, "size_x": 450, "size_y": 110, "hint": "ENTER FILE NAMES FOR STARTUP APPS", "text": "None", "font_size": 12}
+														]
+								},
+								
+								{ "text_box_multiline":	[
+
+														]
+								},
+							]
+				},
+				{ "menu": [
+								{ "window": {
+												"title": "Settings - Menu", "size_x": 1000, "size_y": 685, "icon": "apps/settings/settings_icon.png", "min_size_x": 1000, "min_size_y": 685, "allow_resize":true } 
+								},
+								
+								{ "text": 	[
+												{ "string": "Settings", "pos_x": 60, "pos_y": 20, "font_size": 35, "color": "R=0, G=0, B=0, A=1" },
+												{ "string": "Menu", "pos_x": 290, "pos_y": 20, "font_size": 27, "color": "R=0.15, G=0.15, B=0.15, A=1" },
+												{ "string": "More options coming soon...", "pos_x": 310, "pos_y": 90, "font_size": 17, "color": "R=0.25, G=0.25, B=0.25, A=1" },
+											]
+								},
+								
+								{ "button": [
+											{ "pos_x": 50, "pos_y": 15, "size_x": 200, "size_y": 60, "font_size": 16, "color": "R=0, G=0, B=0, A=0", "command": [{"cmd": "open_page: pages[0].page_1"}] },
+											{ "string": "Account", "pos_x": 50, "pos_y": 100, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[1].account"}] },
+											{ "string": "Time and date", "pos_x": 50, "pos_y": 140, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[2].time_and_date"}] },
+											{ "string": "Surface", "pos_x": 50, "pos_y": 180, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[3].surface"}] },
+											{ "string": "Menu", "pos_x": 50, "pos_y": 220, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[4].menu"}] },
+											{ "string": "Sounds", "pos_x": 50, "pos_y": 260, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[5].sounds"}] },
+											{ "string": "Security", "pos_x": 50, "pos_y": 300, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[6].security"}] },
+											{ "string": "Display", "pos_x": 50, "pos_y": 340, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[7].display"}] },
+											{ "string": "Apply settings", "pos_x": 50, "pos_y": 550, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "scale_y":true, "command": [{"cmd": "refresh_settings"}] },
+											]
+								},
+								
+								{ "text_box": 	[
+												]
+								},
+								
+								{ "border": 	[
+													{ "pos_x": 50, "pos_y": -30, "size_x": 200, "size_y": 655, "resize_x":false, "resize_y":true, "resize_xy":false, "zorder": -1, "color": "R=0.1, G=0.1, B=0.1, A=0.1"},
+												]
+								},
+								
+								{ "check_box":	[
+
+												]
+								},
+								
+								{ "text_box_multiline":	[
+									
+														]
+								},
+								
+								{ "text_box_multiline":	[
+
+														]
+								},
+							]
+				},
+				{ "sounds": [
+								{ "window": {
+												"title": "Settings - Sounds", "size_x": 1000, "size_y": 685, "icon": "apps/settings/settings_icon.png", "min_size_x": 1000, "min_size_y": 685, "allow_resize":true } 
+								},
+								
+								{ "text": 	[
+												{ "string": "Settings", "pos_x": 60, "pos_y": 20, "font_size": 35, "color": "R=0, G=0, B=0, A=1" },
+												{ "string": "Sounds", "pos_x": 290, "pos_y": 20, "font_size": 27, "color": "R=0.15, G=0.15, B=0.15, A=1" },
+												{ "string": "Volume:", "pos_x": 310, "pos_y": 130, "font_size": 17, "color": "R=0.25, G=0.25, B=0.25, A=1" },
+												{ "string": "Startup:", "pos_x": 310, "pos_y": 170, "font_size": 17, "color": "R=0.25, G=0.25, B=0.25, A=1" },
+												{ "string": "Warning:", "pos_x": 310, "pos_y": 210, "font_size": 17, "color": "R=0.25, G=0.25, B=0.25, A=1" },
+												{ "string": "Shutdown:", "pos_x": 310, "pos_y": 250, "font_size": 17, "color": "R=0.25, G=0.25, B=0.25, A=1" },
+											]
+								},
+								
+								{ "button": [
+											{ "pos_x": 50, "pos_y": 15, "size_x": 200, "size_y": 60, "font_size": 16, "color": "R=0, G=0, B=0, A=0", "command": [{"cmd": "open_page: pages[0].page_1"}] },
+											{ "string": "Account", "pos_x": 50, "pos_y": 100, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[1].account"}] },
+											{ "string": "Time and date", "pos_x": 50, "pos_y": 140, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[2].time_and_date"}] },
+											{ "string": "Surface", "pos_x": 50, "pos_y": 180, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[3].surface"}] },
+											{ "string": "Menu", "pos_x": 50, "pos_y": 220, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[4].menu"}] },
+											{ "string": "Sounds", "pos_x": 50, "pos_y": 260, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[5].sounds"}] },
+											{ "string": "Security", "pos_x": 50, "pos_y": 300, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[6].security"}] },
+											{ "string": "Display", "pos_x": 50, "pos_y": 340, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[7].display"}] },
+											{ "string": "Apply settings", "pos_x": 50, "pos_y": 550, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "scale_y":true, "command": [{"cmd": "refresh_settings"}] },
+											{ "string": "Test volume", "pos_x": 500, "pos_y": 20, "size_x": 170, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "play_sound: sounds/system/startup.wav"}] },
+											]
+								},
+								
+								{ "text_box": 	[
+												{ "config_type":true, "config_file": "system_settings/settings.ini", "section": "sounds", "key": "volume", "pos_x": 475, "pos_y": 130, "size_x": 450, "size_y": 30, "hint": "ENTER VOLUME", "font_size": 12 },
+												{ "config_type":true, "config_file": "system_settings/settings.ini", "section": "sounds", "key": "startup", "pos_x": 475, "pos_y": 170, "size_x": 450, "size_y": 30, "hint": "ENTER SOUND URL", "font_size": 12 },
+												{ "config_type":true, "config_file": "system_settings/settings.ini", "section": "sounds", "key": "warning", "pos_x": 475, "pos_y": 210, "size_x": 450, "size_y": 30, "hint": "ENTER SOUND URL", "font_size": 12 },
+												{ "config_type":true, "config_file": "system_settings/settings.ini", "section": "sounds", "key": "shutdown", "pos_x": 475, "pos_y": 250, "size_x": 450, "size_y": 30, "hint": "ENTER SOUND URL", "font_size": 12 },
+												]
+								},
+								
+								{ "border": 	[
+													{ "pos_x": 50, "pos_y": -30, "size_x": 200, "size_y": 655, "resize_x":false, "resize_y":true, "resize_xy":false, "zorder": -1, "color": "R=0.1, G=0.1, B=0.1, A=0.1"},
+												]
+								},
+								
+								{ "check_box":	[
+												{ "pos_x": 310, "pos_y": 90, "size_x": 100, "size_y": 30, "zorder": 5, "text_color": "R=0, G=0, B=0, A=1", "color": "R=1, G=1, B=1, A=1", "config_file": "system_settings/settings.ini", "section": "sounds", "key": "use_sounds", "text": "Use sounds?"},
+												]
+								},
+								
+								{ "text_box_multiline":	[
+														
+														]
+								},
+								
+								{ "text_box_multiline":	[
+
+														]
+								},
+							]
+				},
+				{ "security": [
+								{ "window": {
+												"title": "Settings - Security", "size_x": 1000, "size_y": 685, "icon": "apps/settings/settings_icon.png", "min_size_x": 1000, "min_size_y": 685, "allow_resize":true } 
+								},
+					
+								{ "text": 	[
+												{ "string": "Settings", "pos_x": 60, "pos_y": 20, "font_size": 35, "color": "R=0, G=0, B=0, A=1" },
+												{ "string": "Security", "pos_x": 290, "pos_y": 20, "font_size": 27, "color": "R=0.15, G=0.15, B=0.15, A=1" },
+												{ "string": "Allowed apps:", "pos_x": 310, "pos_y": 130, "font_size": 17, "color": "R=0.25, G=0.25, B=0.25, A=1" },
+											]
+								},
+
+								{ "button": [
+											{ "pos_x": 50, "pos_y": 15, "size_x": 200, "size_y": 60, "font_size": 16, "color": "R=0, G=0, B=0, A=0", "command": [{"cmd": "open_page: pages[0].page_1"}] },
+											{ "string": "Account", "pos_x": 50, "pos_y": 100, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[1].account"}] },
+											{ "string": "Time and date", "pos_x": 50, "pos_y": 140, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[2].time_and_date"}] },
+											{ "string": "Surface", "pos_x": 50, "pos_y": 180, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[3].surface"}] },
+											{ "string": "Menu", "pos_x": 50, "pos_y": 220, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[4].menu"}] },
+											{ "string": "Sounds", "pos_x": 50, "pos_y": 260, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[5].sounds"}] },
+											{ "string": "Security", "pos_x": 50, "pos_y": 300, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[6].security"}] },
+											{ "string": "Display", "pos_x": 50, "pos_y": 340, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[7].display"}] },
+											{ "string": "Apply settings", "pos_x": 50, "pos_y": 550, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "scale_y":true, "command": [{"cmd": "refresh_settings"}] },
+											]
+								},
+					
+								{ "text_box": 	[
+
+												]
+								},
+					
+								{ "border": 	[
+													{ "pos_x": 50, "pos_y": -30, "size_x": 200, "size_y": 655, "resize_x":false, "resize_y":true, "resize_xy":false, "zorder": -1, "color": "R=0.1, G=0.1, B=0.1, A=0.1"},
+												]
+								},
+					
+								{ "check_box":	[
+												{ "pos_x": 310, "pos_y": 90, "size_x": 100, "size_y": 30, "zorder": 5, "text_color": "R=0, G=0, B=0, A=1", "color": "R=1, G=1, B=1, A=1", "config_file": "system_settings/security.ini", "section": "security", "key": "enable_security", "text": "Enable security?"},
+												]
+								},
+					
+								{ "text_box_multiline":	[
+													{ "config_type":true, "config_file": "system_settings/security.ini", "section": "allowed apps", "key": "app", "pos_x": 475, "pos_y": 130, "size_x": 245, "size_y": 150, "hint": "ALLOWED APPS", "font_size": 12 },
+														]
+								},
+					
+								{ "text_box_multiline":	[
+
+														]
+								},
+							]
+				},
+				{ "display": [
+					{ "window": {
+									"title": "Settings - Security", "size_x": 1000, "size_y": 685, "icon": "images/settings_icon.png", "min_size_x": 1000, "min_size_y": 685, "allow_resize":true } 
+					},
+		
+					{ "text": 	[
+									{ "string": "Settings", "pos_x": 60, "pos_y": 20, "font_size": 35, "color": "R=0, G=0, B=0, A=1" },
+									{ "string": "Display", "pos_x": 290, "pos_y": 20, "font_size": 27, "color": "R=0.15, G=0.15, B=0.15, A=1" },
+									{ "string": "Screen saver delay (seconds):", "pos_x": 310, "pos_y": 130, "font_size": 17, "color": "R=0.25, G=0.25, B=0.25, A=1" },
+									{ "string": "Brightness (0.1 - 1):", "pos_x": 310, "pos_y": 170, "font_size": 17, "color": "R=0.25, G=0.25, B=0.25, A=1" },
+								]
+					},
+
+					{ "button": [
+								{ "pos_x": 50, "pos_y": 15, "size_x": 200, "size_y": 60, "font_size": 16, "color": "R=0, G=0, B=0, A=0", "command": [{"cmd": "open_page: pages[0].page_1"}] },
+								{ "string": "Account", "pos_x": 50, "pos_y": 100, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[1].account"}] },
+								{ "string": "Time and date", "pos_x": 50, "pos_y": 140, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[2].time_and_date"}] },
+								{ "string": "Surface", "pos_x": 50, "pos_y": 180, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[3].surface"}] },
+								{ "string": "Menu", "pos_x": 50, "pos_y": 220, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[4].menu"}] },
+								{ "string": "Sounds", "pos_x": 50, "pos_y": 260, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[5].sounds"}] },
+								{ "string": "Security", "pos_x": 50, "pos_y": 300, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[6].security"}] },
+								{ "string": "Display", "pos_x": 50, "pos_y": 340, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "open_page: pages[7].display"}] },
+								{ "string": "Apply settings", "pos_x": 50, "pos_y": 550, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "scale_y":true, "command": [{"cmd": "refresh_settings"}] },
+								]
+					},
+		
+					{ "text_box": 	[
+										{ "config_type":true, "config_file": "system_settings/settings.ini", "section": "display", "key": "screen_saver_delay", "pos_x": 630, "pos_y": 130, "size_x": 70, "size_y": 30, "hint": "ENTER SCREEN SAVER DELAY", "font_size": 12 },
+										{ "config_type":true, "config_file": "system_settings/settings.ini", "section": "display", "key": "brightness", "pos_x": 630, "pos_y": 170, "size_x": 100, "size_y": 30, "hint": "ENTER BRIGHTNESS", "font_size": 12 },
+									]
+					},
+		
+					{ "border": 	[
+										{ "pos_x": 50, "pos_y": -30, "size_x": 200, "size_y": 655, "resize_x":false, "resize_y":true, "resize_xy":false, "zorder": -1, "color": "R=0.1, G=0.1, B=0.1, A=0.1"},
+									]
+					},
+		
+					{ "check_box":	[
+									{ "pos_x": 310, "pos_y": 90, "size_x": 100, "size_y": 30, "zorder": 5, "text_color": "R=0, G=0, B=0, A=1", "color": "R=1, G=1, B=1, A=1", "config_file": "system_settings/settings.ini", "section": "display", "key": "enable_screen_saver", "text": "Enable screen saver?"},
+									]
+					},
+		
+					{ "text_box_multiline":	[
+
+											]
+					},
+		
+					{ "text_box_multiline":	[
+
+											]
+					},
+				]
+	},
+			 ]
+}

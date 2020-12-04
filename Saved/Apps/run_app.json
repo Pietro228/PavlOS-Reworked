@@ -1,0 +1,43 @@
+{	"pages": [
+				{ "page_1": [
+								{ "window": {
+												"title": "RUN APP", "app_name": "Run app", "size_x": 400, "size_y": 130, "icon": "images/run_app_icon.png", "min_size_x": 400, "min_size_y": 130  }
+								},
+								
+								{ "text": 	[
+												{ "string": "Which app would you like to run?", "pos_x": 4, "pos_y": 17, "scale_x":true, "scale_y":true, "font_size": 15 }
+											]
+								},
+								
+								{ "button": [
+												{ "string": "RUN", "pos_x": 270, "pos_y": 55, "size_x": 100, "size_y": 30, "font_size": 15, "scale_x":true, "scale_y":true, "command": [{"cmd": "run_app: run_app_tb"}] }
+											]
+								},
+								
+								{ "text_box": 	[
+													{ "text_ID": "run_app_tb", "pos_x": 20, "pos_y": 55, "size_x": 245, "size_y": 30, "hint": "ENTER APP URL", "text": "apps/test.json", "scale_x":true, "scale_y":true, "font_size": 12 }
+												]
+								},
+								
+								{ "border": 	[
+												]
+								},
+								
+								{ "check_box":	[
+												
+												]
+								},
+								
+								{ "text_box_multiline":	[
+
+														]
+								},
+								
+								{ "web_browser":		[
+
+														]
+								},
+							]
+				},
+			 ]
+}

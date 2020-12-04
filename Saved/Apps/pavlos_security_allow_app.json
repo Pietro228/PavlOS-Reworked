@@ -1,0 +1,45 @@
+{	"pages": [
+				{ "page_1": [
+								{ "window": {
+												"title": "PavlOS Security - allow app", "app_name": "Allow app", "size_x": 550, "size_y": 200, "icon": "images/security.png", "min_size_x": 550, "min_size_y": 200, "bg_color": "R=1,G=01,B=1", "allow_resize":false, "allow_nav_btns":false } 
+								},
+								
+								{ "text": 	[
+												{ "string": "This app wants to:", "pos_x": 10, "pos_y": 10, "font_size": 25, "color": "R=0.1, G=0.1, B=0.1, A=1" }
+											]
+								},
+								
+								{ "button": [
+											{ "string": "Allow app", "pos_x": 50, "pos_y": 110, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=1, G=1, B=1, A=1", "color": "R=1, G=0.2, B=0.2, A=1", "command": [{"cmd": "close_app"}, {"cmd": "trust_app=last_app"}, {"cmd": "notification: PavlOS now trusts this app. You can reopen it now."}] },
+											{ "string": "Close", "pos_x": 300, "pos_y": 110, "size_x": 200, "size_y": 40, "font_size": 16, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "scale_y":true, "command": [{"cmd": "close_app"}] }
+											]
+								},
+								
+								{ "text_box": 	[
+											{ "config_type":true, "config_file": "system_settings/security.ini", "section": "allowed apps", "key": "risky_commands", "pos_x": 10, "pos_y": 60, "size_x": 450, "size_y": 30, "hint": "RISKY COMMANDS", "font_size": 12 }
+												]
+								},
+								
+								{ "border": 	[
+
+												]
+								},
+								
+								{ "check_box":	[
+													
+												]
+								},
+								
+								{ "text_box_multiline":	[
+															
+														]
+								},
+								
+								{ "text_box_multiline":	[
+
+														]
+								}
+							]
+				}
+			 ]
+}
