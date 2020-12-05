@@ -1,0 +1,49 @@
+{	"pages": [
+				{ "page_1": [
+								{ "window": {
+												"title": "Color picker", "app_name": "Color picker", "size_x": 420, "size_y": 385, "icon": "apps/color_picker/cp.png", "min_size_x": 420, "min_size_y": 385, "code": "apps/color_picker/cp.p", "allow_resize":false, "bg_color":"R=0.8, G=0.8, B=0.8" } 
+								},
+								
+								{ "text": 	[
+
+											]
+								},
+								
+								{ "button": [
+												{ "string": "COPY COLOR", "pos_x": 0, "pos_y": 0, "size_x": 170, "size_y": 25, "font_size": 12, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "@run=apps/color_picker/cp_copycolor.p"}] },
+												{ "string": "RESET COLOR", "pos_x": 170, "pos_y": 0, "size_x": 150, "size_y": 25, "font_size": 12, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "@run=apps/color_picker/cp_resetcolor.p"}] },
+												{ "string": "EXIT", "pos_x": 320, "pos_y": 0, "size_x": 100, "size_y": 25, "font_size": 12, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "close_app"}] },
+												{ "string": "REFRESH", "pos_x": 35, "pos_y": 220, "size_x": 100, "size_y": 25, "font_size": 12, "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command": [{"cmd": "@run=apps/color_picker/cp_initcolor.p"}] }
+											]
+								},
+								
+								{ "text_box": 	[
+										{ "object_ID": "txtbxR", "pos_x": 35, "pos_y": 100, "size_x": 100, "size_y": 23, "hint": "VALUE 0-1.0", "text": "1", "font_size": 12, "color":"R=1, G=0.5, B=0.5, A=1" },
+										{ "object_ID": "txtbxG", "pos_x": 35, "pos_y": 130, "size_x": 100, "size_y": 23, "hint": "VALUE 0-1.0", "text": "1", "font_size": 12, "color":"R=0.5, G=1, B=0.5, A=1" },
+										{ "object_ID": "txtbxB", "pos_x": 35, "pos_y": 160, "size_x": 100, "size_y": 23, "hint": "VALUE 0-1.0", "text": "1", "font_size": 12, "color":"R=0.5, G=0.5, B=1, A=1" },
+										{ "object_ID": "txtbxA", "pos_x": 35, "pos_y": 190, "size_x": 100, "size_y": 23, "hint": "VALUE 0-1.0", "text": "1", "font_size": 12 }
+												]
+								},
+								
+								{ "border": 	[
+										{ "object_ID": "borderCP", "pos_x":170, "pos_y":75, "size_x":200, "size_y":200}
+												]
+								},
+								
+								{ "check_box":	[
+												]
+								},
+								
+								{ "text_box_multiline":	[
+
+														]
+								},
+								
+								{ "web_browser":		[
+
+														]
+								}
+							]
+				}
+			 ]
+}
