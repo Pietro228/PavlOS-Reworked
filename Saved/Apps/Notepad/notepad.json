@@ -1,11 +1,11 @@
 {	"pages": [
 				{ "page_1": [
 								{ "window": {
-												"title": "Notepad", "app_name": "Notepad", "size_x": 700, "size_y": 385, "icon": "apps/notepad/paper.png", "min_size_x": 700, "min_size_y": 385, "code": "apps/notepad/ntpd.p" } 
+												"title": "Notepad", "app_name": "Notepad", "size_x": 750, "size_y": 435, "icon": "apps/notepad/paper.png", "min_size_x": 750, "min_size_y": 435, "code": "apps/notepad/ntpd.p" } 
 								},
 								
 								{ "text": 	[
-
+									{ "pos_x": 457, "pos_y": 3.5, "font_size": 13, "string": "Name:", "color":"R=0.08, G=0.08, B=0.08, A=1"}	
 											]
 								},
 								
@@ -18,7 +18,7 @@
 								},
 								
 								{ "text_box": 	[
-										{ "object_ID": "txtbxsave", "pos_x": 500, "pos_y": 1, "size_x": 200, "size_y": 23, "hint": "ENTER DOCUMENT NAME", "text": "document1", "resize_x":true, "font_size": 12 }
+										{ "object_ID": "txtbxsave", "pos_x": 515, "pos_y": 1, "size_x": 235, "size_y": 23, "hint": "ENTER DOCUMENT NAME", "text": "document1", "resize_x":true, "font_size": 12 }
 												]
 								},
 								
@@ -32,7 +32,7 @@
 								},
 								
 								{ "text_box_multiline":	[
-													{"pos_x": 0, "pos_y": 25, "size_x": 700, "size_y": 350, "font_size": 12, "resize_x":true, "resize_y":true, "object_ID": "txtbx"}
+													{"pos_x": 0, "pos_y": 25, "size_x": 750, "size_y": 400, "font_size": 12, "resize_x":true, "resize_y":true, "object_ID": "txtbx"}
 														]
 								},
 								

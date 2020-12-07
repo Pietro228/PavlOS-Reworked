@@ -1,0 +1,41 @@
+{	"pages": [
+				{ "page_1": [
+								{ "window": {
+												"title": "Notepad", "app_name": "Notepad", "size_x": 0, "size_y": 0, "icon": "apps/notepad/paper.png", "min_size_x": 0, "min_size_y": 0, "code": "apps/notepad/ntpd_shortcut.p", "shortcut":true } 
+								},
+								
+								{ "text": 	[	
+											]
+								},
+								
+								{ "button": [
+												
+											]
+								},
+								
+								{ "text_box": 	[
+										
+												]
+								},
+								
+								{ "border": 	[
+									
+												]
+								},
+								
+								{ "check_box":	[
+												]
+								},
+								
+								{ "text_box_multiline":	[
+														]
+								},
+								
+								{ "web_browser":		[
+
+														]
+								}
+							]
+				}
+			 ]
+}
