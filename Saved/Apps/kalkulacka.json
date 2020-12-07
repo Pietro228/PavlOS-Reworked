@@ -1,0 +1,43 @@
+{	"pages": [
+				{ "page_1": [
+								{ "window": {
+												"title": "Tánina kalkulačka", "app_name": "Kalkulačka", "size_x": 700, "size_y": 350, "icon": "images/ruze.png", "min_size_x": 700, "min_size_y": 350, "code": "", "allow_resize":true, "bg_color":"R=0, G=0.2, B=0.1, A=1" } 
+								},
+								
+								{ "text": 	[
+									
+											]
+								},
+								
+								{ "button": [
+
+											]
+								},
+								
+								{ "text_box": 	[
+										
+												]
+								},
+								
+								{ "border": 	[
+
+												]
+								},
+								
+								{ "check_box":	[
+												]
+								},
+								
+								{ "text_box_multiline":	[
+
+														]
+								},
+								
+								{ "web_browser":		[
+
+														]
+								}
+							]
+				}
+			 ]
+}
