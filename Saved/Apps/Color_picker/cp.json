@@ -5,7 +5,7 @@
 								},
 								
 								{ "text": 	[
-
+									{ "pos_x": 35, "pos_y": 300, "font_size": 14, "string": "null", "object_ID": "txtCP", "color":"R=0.08, G=0.08, B=0.08, A=1"}										
 											]
 								},
 								

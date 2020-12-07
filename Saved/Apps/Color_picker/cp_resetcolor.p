@@ -3,6 +3,7 @@
 //BeXCool 2020
 
 json=border=borderCP=color=R\equal1, G\equal1, B\equal1, A\equal1
+json=text=txtCP=string=R\equal1, G\equal1, B\equal1, A\equal1
 json=textbox=txtbxR=text=1
 json=textbox=txtbxG=text=1
 json=textbox=txtbxB=text=1
