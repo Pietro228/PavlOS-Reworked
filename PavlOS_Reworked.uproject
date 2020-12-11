@@ -76,6 +76,11 @@
 			"Name": "ConfigBPPlugin",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/72cafa6deb374cf48f12c8ef45ffa129"
+		},
+		{
+			"Name": "EasyXMLParser",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/af98110080a4411a8eaf3b8e931b8655"
 		}
 	]
 }

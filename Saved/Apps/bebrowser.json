@@ -1,7 +1,7 @@
 {	"pages": [
 				{ "page_1": [
 								{ "window": {
-												"title": "BeBrowser", "app_name": "BeBrowser", "size_x": 1200, "size_y": 685, "icon": "images/BeBrowser_PavlOS_version.png", "min_size_x": 700, "min_size_y": 385 } 
+												"title": "BeBrowser", "app_name": "BeBrowser", "size_x": 1200, "size_y": 685, "icon": "images/BeBrowser_PavlOS_version.png", "min_size_x": 700, "min_size_y": 385, "code": "apps/BeBrowser/BeBrowser_go.p" } 
 								},
 								
 								{ "text": 	[
@@ -9,11 +9,12 @@
 								},
 								
 								{ "button": [
+									{"pos_x": 5, "pos_y": 5, "size_x": 90, "size_y": 30, "string": "GO", "object_ID": "btngo", "command":[{"cmd":"@run=apps/bebrowser/bebrowser_go.p"}]}
 											]
 								},
 								
 								{ "text_box": 	[
-												{ "object_ID": "url_txtbox", "pos_x": 5, "pos_y": 5, "size_x": 1190, "size_y": 30, "hint": "ENTER URL", "text": "https://www.google.com/", "resize_x":true, "font_size": 12 }
+												{ "object_ID": "txtboxurl", "pos_x": 100, "pos_y": 5, "size_x": 1095, "size_y": 30, "hint": "ENTER URL", "text": "https://www.google.com/", "resize_x":true, "font_size": 12}
 												]
 								},
 								
@@ -33,7 +34,7 @@
 								},
 								
 								{ "web_browser":		[
-														{ "pos_x":0, "pos_y":40, "size_x": 1190, "size_y": 645, "resize_x":true, "resize_y":true, "url": "get.url_txtbox"}
+														{ "pos_x":0, "pos_y":40, "size_x": 1190, "size_y": 605, "resize_x":true, "resize_y":true, "object_ID": "browser", "on_URL_changed": "@json=textbox=txtboxurl=text=&get.webbrowser.browser.url&"}
 														]
 								}
 							]
