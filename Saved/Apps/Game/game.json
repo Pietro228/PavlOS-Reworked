@@ -1,0 +1,46 @@
+{	"pages": [
+				{ "page_1": [
+								{ "window": {
+												"title": "Game demo", "app_name": "Game demo", "size_x": 750, "size_y": 435, "icon": "apps/notepad/paper.png", "min_size_x": 750, "min_size_y": 435, "code": "apps/game/game.p", "bg_color":"R=0.1, G=0.7, B=0.1, A=1" } 
+								},
+								
+								{ "text": 	[
+	
+											]
+								},
+								
+								{ "button": [
+												{ "zorder":1, "string": "↑", "pos_x": 30, "pos_y": 0, "size_x": 30, "size_y": 30, "font_size": 12, "color": "R=1, G=1, B=1, A=1", "command": [{"cmd": "@run=apps/game/game_player_up.p"}] },
+												{ "zorder":1, "string": "↓", "pos_x": 30, "pos_y": 60, "size_x": 30, "size_y": 30, "font_size": 12, "color": "R=1, G=1, B=1, A=1", "command": [{"cmd": "@run=apps/game/game_player_down.p"}] },
+												{ "zorder":1, "string": "→", "pos_x": 60, "pos_y": 30, "size_x": 30, "size_y": 30, "font_size": 12, "color": "R=1, G=1, B=1, A=1", "command": [{"cmd": "@run=apps/game/game_player_right.p"}] },
+												{ "zorder":1, "string": "←", "pos_x": 0, "pos_y": 30, "size_x": 30, "size_y": 30, "font_size": 12, "color": "R=1, G=1, B=1, A=1", "command": [{"cmd": "@run=apps/game/game_player_left.p"}] }
+											]
+								},
+								
+								{ "text_box": 	[
+
+												]
+								},
+								
+								{ "border": 	[
+									{"pos_x":100, "pos_y":100, "object_ID": "player", "size_x":50, "size_y":50, "zorder":-1}
+												]
+								},
+								
+								{ "check_box":	[
+												]
+								},
+								
+								{ "text_box_multiline":	[
+
+														]
+								},
+								
+								{ "web_browser":		[
+
+														]
+								}
+							]
+				}
+			 ]
+}
