@@ -18,10 +18,10 @@
 								},
 								
 								{ "text_box": 	[
-										{ "object_ID": "txtbxR", "pos_x": 35, "pos_y": 100, "size_x": 100, "size_y": 23, "hint": "VALUE 0-1.0", "text": "1", "font_size": 12, "color":"R=1, G=0.5, B=0.5, A=1" },
-										{ "object_ID": "txtbxG", "pos_x": 35, "pos_y": 130, "size_x": 100, "size_y": 23, "hint": "VALUE 0-1.0", "text": "1", "font_size": 12, "color":"R=0.5, G=1, B=0.5, A=1" },
-										{ "object_ID": "txtbxB", "pos_x": 35, "pos_y": 160, "size_x": 100, "size_y": 23, "hint": "VALUE 0-1.0", "text": "1", "font_size": 12, "color":"R=0.5, G=0.5, B=1, A=1" },
-										{ "object_ID": "txtbxA", "pos_x": 35, "pos_y": 190, "size_x": 100, "size_y": 23, "hint": "VALUE 0-1.0", "text": "1", "font_size": 12 }
+										{ "object_ID": "txtbxR", "pos_x": 30, "pos_y": 100, "size_x": 110, "size_y": 23, "hint": "VALUE 0-1.0", "text": "1", "font_size": 12, "color":"R=1, G=0.5, B=0.5, A=1" },
+										{ "object_ID": "txtbxG", "pos_x": 30, "pos_y": 130, "size_x": 110, "size_y": 23, "hint": "VALUE 0-1.0", "text": "1", "font_size": 12, "color":"R=0.5, G=1, B=0.5, A=1" },
+										{ "object_ID": "txtbxB", "pos_x": 30, "pos_y": 160, "size_x": 110, "size_y": 23, "hint": "VALUE 0-1.0", "text": "1", "font_size": 12, "color":"R=0.5, G=0.5, B=1, A=1" },
+										{ "object_ID": "txtbxA", "pos_x": 30, "pos_y": 190, "size_x": 110, "size_y": 23, "hint": "VALUE 0-1.0", "text": "1", "font_size": 12 }
 												]
 								},
 								

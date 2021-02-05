@@ -9,12 +9,12 @@
 								},
 								
 								{ "button": [
-									{"pos_x": 5, "pos_y": 5, "size_x": 90, "size_y": 30, "string": "GO", "object_ID": "btngo", "command":[{"cmd":"@run=apps/bebrowser/bebrowser_go.p"}]}
+									{"pos_x": 0, "pos_y": 0, "size_x": 90, "size_y": 30, "string": "GO", "object_ID": "btngo", "text_color": "R=0.08, G=0.08, B=0.08, A=1", "color": "R=1, G=1, B=1, A=1", "style": "styles/button/modern_style.ini", "command":[{"cmd":"@run=apps/bebrowser/bebrowser_go.p"}]}
 											]
 								},
 								
 								{ "text_box": 	[
-												{ "object_ID": "txtboxurl", "pos_x": 100, "pos_y": 5, "size_x": 1095, "size_y": 30, "hint": "ENTER URL", "text": "https://www.google.com/", "resize_x":true, "font_size": 12}
+												{ "object_ID": "txtboxurl", "pos_x": 90, "pos_y": 0, "size_x": 1105, "size_y": 30, "hint": "ENTER URL", "text": "https://www.google.com/", "resize_x":true, "font_size": 12}
 												]
 								},
 								
@@ -34,7 +34,7 @@
 								},
 								
 								{ "web_browser":		[
-														{ "pos_x":0, "pos_y":40, "size_x": 1190, "size_y": 605, "resize_x":true, "resize_y":true, "object_ID": "browser", "on_URL_changed": "@json=textbox=txtboxurl=text=&get.webbrowser.browser.url&"}
+														{ "pos_x":0, "pos_y":40, "size_x": 1190, "size_y": 615, "resize_x":true, "resize_y":true, "object_ID": "browser", "on_URL_changed": "@json=textbox=txtboxurl=text=&get.webbrowser.browser.url&"}
 														]
 								}
 							]
